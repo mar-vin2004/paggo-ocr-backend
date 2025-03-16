@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { DocumentsService } from './documents.service';
+import { DocumentsService, OcrService } from './documents.service';
 
 @Module({
-  providers: [DocumentsService]
+  providers: [DocumentsService, OcrService]
 })
 export class DocumentsModule {}
