@@ -8,3 +8,5 @@ export class OcrService {
     return data.text;
   }
 }
+
+export class DocumentsService {}
